@@ -39,7 +39,8 @@ button {
     background-color:cornflowerblue
     color: seashell;
     padding: 12px;
-    border: none;
+    border-color:navy
+    border-style: dotted;
     border-radius: 5px;
     font-size: 1.1rem;
     cursor: pointer;
