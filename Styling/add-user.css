@@ -1,0 +1,13 @@
+body{
+    background-color: floralwhite;
+    input, select, textarea {
+        padding: 9px;
+        margin: 11px;
+        margin-right: 10px;
+        font-size: 1rem;
+        border: 1px solid #2696f1;
+        border-radius: 4px;
+        width: 100%;
+    text-align: center;
+    
+}
