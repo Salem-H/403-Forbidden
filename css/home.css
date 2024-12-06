@@ -16,9 +16,7 @@ p{
     
 }
 
-#btn{ /*to center the butons */
-   text-align: center;
-}
+
 
 footer{ 
     text-align: center;/*to center the footer*/
@@ -55,7 +53,7 @@ ul {
     color: white;/* to change the color*/
 }
 .links li a:hover{ /* to make it change color when hovered over*/
-    color: blue;
+    color: grey;
 }
 
 .quote h3 { /*to align the motivational quote header*/
@@ -67,9 +65,33 @@ ul {
 }
 section{
     background-color: rgb(219, 218, 218);
+    border-radius: .5rem;
     width: 900px; /*to make the box smaller*/
     margin: auto; /*to center the items*/
+    
 }
 #quoteBtn{
-    border-radius: .5rem;
+    border-radius: .5rem; /* change the border of hte quote button*/
+    background-color: black;
+    color: white;
 }
+#quoteBtn:hover{
+    color: grey;
+}
+#btn button {
+    border-radius: .5rem; /* change the border on the to do buttons*/
+    background-color: black;
+    color: white;
+   
+}
+#btn{ /*to center the butons */
+    text-align: center;
+   
+ }
+ #btn button a{
+    text-decoration: none;
+    color: white;
+ }
+ #btn button a:hover{
+    color: grey;
+ }
