@@ -1,0 +1,97 @@
+h2{
+    text-align: center; /* */
+}
+p{
+    text-align: center;
+}
+#organized { /* for the 1st image on the home Page*/
+    display: block;
+    margin: auto;
+    height: 500px; 
+}
+
+.icon { /*for the icons on the nav buttons*/
+    width: 1rem;
+    height: 1rem;
+    
+}
+
+
+
+footer{ 
+    text-align: center;/*to center the footer*/
+    background-color: black;
+    color: white;
+}
+ul {
+    display: block;
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+  }
+.card img{
+    width: 100px;
+    border-radius: 3rem;
+    display: block;
+    margin: auto;
+}
+.card{
+    background-color: rgb(219, 218, 218);
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+.card{
+    max-width: 700px;
+    max-height: 900px;
+    margin: auto;
+    border-radius: 1rem;
+    /* padding: 50px; */
+    /* padding-left: 10px; */
+}
+.links li a{ 
+    text-decoration: none; /*to remove the underline on the link*/
+    color: white;/* to change the color*/
+}
+.links li a:hover{ /* to make it change color when hovered over*/
+    color: grey;
+}
+
+.quote h3 { /*to align the motivational quote header*/
+    text-align: center; 
+
+}
+.quote{
+    text-align: center; /*used to align the button*/
+}
+section{
+    background-color: rgb(219, 218, 218);
+    border-radius: .5rem;
+    width: 900px; /*to make the box smaller*/
+    margin: auto; /*to center the items*/
+    
+}
+#quoteBtn{
+    border-radius: .5rem; /* change the border of hte quote button*/
+    background-color: black;
+    color: white;
+}
+#quoteBtn:hover{
+    color: grey;
+}
+#btn button {
+    border-radius: .5rem; /* change the border on the to do buttons*/
+    background-color: black;
+    color: white;
+   
+}
+#btn{ /*to center the butons */
+    text-align: center;
+   
+ }
+ #btn button a{
+    text-decoration: none;
+    color: white;
+ }
+ #btn button a:hover{
+    color: grey;
+ }

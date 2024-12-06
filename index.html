@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LifeLine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="todo-page.html">ToDo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newToDo.html">New Todo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="add-user.html">Add User</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <h2>Help us help you!</h2>
+    <hr>
+    <br>
+    <img src="./image/homeImages/get-organized-on-table.jpg" alt="get organized" id="organized">
+    <br>
+    <hr>
+    <br>
+    <p><b>Life gets busy, and keeping track of everything can feel overwhelming. That’s where we come in.
+            <br> Our mission is to
+            help you stay organized and on top of your to-do list with ease. We are your lifeline so help us help you!
+        </b></p>
+    <br>
+    <div id="btn">
+        <button><img src="./image/svg/list.svg" class="icon"><a href="todo-page.html">Your todo list</a></button>
+        <button><img src="./image/svg/list1.svg" class="icon"><a href="newToDo.html"> Your first list</a></button>
+    </div>
+    <br><br>
+    <h2><b>Testimonials</b></h2>
+    <br><br>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="./image/homeImages/test1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Marcus Pitts</h5>
+                    <p class="card-text">"Lifeline has been a game-changer for my household! From meal planning to
+                        organizing family activities, I finally feel in control of my day. Highly recommend it to anyone
+                        juggling a million things!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="./image/homeImages/test2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lisa Nguyen</h5>
+                    <p class="card-text">"I’ve tried so many task organizers, but Lifeline stands out. It’s simple,
+                        intuitive, and helps me balance work and personal goals seamlessly. My productivity has never
+                        been better!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="./image/homeImages/test3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Micheal Patel</h5>
+                    <p class="card-text">"Between classes, assignments, and part-time work, I was constantly
+                        overwhelmed. Lifeline helps me break everything down and tackle it step by step. It’s like
+                        having a personal assistant in my pocket!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="./image/homeImages/test4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Karen Matthews</h5>
+                    <p class="card-text">"As a business owner, staying organized is critical. Lifeline makes it easy to
+                        track work tasks and even manage errands. It’s the perfect tool to keep my life and business
+                        running smoothly."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <section class="quote">
+        <h3>Motivational Quote of the Day</h3>
+        <hr>
+        <p id="quote-text">"The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+        </p>
+        <button id="quoteBtn" onclick="newQuote() ">Get a New Quote</button>
+    </section>
+    <br><br>
+    <footer>
+        <div class="links">
+            <p>&copy 2024 LifeLine</p>
+            <ul>
+                <li><a href="aboutUs.html"><img src="./image/svg/about.svg" class="icon"> About Us </a></li>
+                <li><a href="contact.html"><img src="./image/svg/contact.svg" class="icon"> Contact Us </a></li>
+                <li><a href="privacy.html"><img src="./image/svg/privacy.svg" class="icon"> Privacy </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        const quotes = [
+            "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+            "Do not wait to strike till the iron is hot, but make it hot by striking. - William Butler Yeats",
+            "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer",
+            "Believe you can and you're halfway there. - Theodore Roosevelt",
+            "You have within you, right now, everything you need to deal with whatever the world can throw at you - Brian Tracy",
+            "For every minute spent organizing, an hour is earned. - Anonymous",
+            "The only difference between a mob and a trained army is organization. - Calvin Coolidge",
+            "It takes as much energy to wish as it does to plan. - Eleanor Roosevelt"
+        ];
+
+        function newQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quote-text').textContent = quotes[randomIndex];
+        }
+    </script>
+</body>
+
+</html>

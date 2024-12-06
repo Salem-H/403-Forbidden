@@ -16,14 +16,22 @@ label {
     font-size: 1rem;
     margin-bottom: 8px;
     font-weight: bold;
+
     color: #726969;
+
+    color: #a08a8a;
+
 }
 input, select, textarea {
     padding: 10px;
     margin: 10px;
     margin-right: 10px;
     font-size: 1rem;
+
     border: 1px solid #5e3f3f;
+
+    border: 1px solid #e8c2c2;
+
     border-radius: 4px;
     width: 100%;
 }
@@ -36,18 +44,21 @@ select {
     font-size: 1rem;
     cursor: pointer;
 }
+
 option {
     padding: 10px;
 }
 
+
 button {
-    background-color: #76ccf1;
-    color:seashell;
+    background-color:cornflowerblue
+    color: seashell;
     padding: 12px;
-    border:navy
+    border-color:navy
+    border-style: dotted;
     border-radius: 5px;
     font-size: 1.1rem;
-    cursor:pointer;
+    cursor: pointer;
     transition: background-color 0.3s;
 
 }
